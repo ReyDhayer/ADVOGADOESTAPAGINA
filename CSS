@@ -1,0 +1,299 @@
+css
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+body {
+  font-family: "Petit Formal Script", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.petit-formal-script-regular {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navegação */
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #ff6b6b;
+}
+
+/* Seções */
+section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.content-background {
+  background-image: url('Leonardo_Phoenix_A_luxurious_modern_and_elegant_scene_featurin_0.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+ 
+}
+
+
+
+
+.section-2 {
+    background-image: url('freepik-export-20240605125401oovj-scaled.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 300px 20px;
+    text-align: center;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.areas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.area-item {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.area-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #f0b429;
+}
+
+.area-item p {
+    line-height: 1.5;
+}
+
+
+
+.section-3 {
+  background: linear-gradient(to right, #d4cece, #ffffff);
+  padding: 100px 20px;
+  text-align: center;
+  
+}
+
+.section-3 .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgb(131,58,180);
+  
+    background-image: 
+    linear-gradient(
+      45deg,
+      hsl(240deg 48% 14%) 0%,
+      hsl(269deg 44% 19%) 8%,
+      hsl(295deg 43% 23%) 17%,
+      hsl(316deg 48% 29%) 25%,
+      hsl(329deg 52% 37%) 33%,
+      hsl(340deg 53% 45%) 42%,
+      hsl(350deg 58% 54%) 50%,
+      hsl(3deg 75% 61%) 58%,
+      hsl(14deg 94% 63%) 67%,
+      hsl(26deg 100% 61%) 75%,
+      hsl(37deg 100% 57%) 83%,
+      hsl(47deg 100% 52%) 92%,
+      hsl(55deg 100% 50%) 100%
+    );
+  }
+
+
+.text-center {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.team-member {
+  max-width: 300px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Fundo escuro com transparência */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.team-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section-4 {
+  background-image: url('outra-imagem-2.jpeg'); /* Substitua pelo caminho da imagem desejada */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+/* Cards Flutuantes */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 3px solid #ffd277; /* Contorno dourado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombrinha suave */
+  overflow: hidden;
+  width: 18rem;
+  background: linear-gradient(to right, #3d2a00, #6b4b00, #d4af37, #d4af37, #e6c200, #6b4b00);
+  border-radius: 10px;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* Aumenta levemente o card ao passar o mouse */
+}
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Botão Customizado */
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #e6c200, #f2d184, #d4af37, #d4af37, #f2d184, #d4af37);
+  background-size: 200% 200%;
+  animation: gradientShift 4s ease infinite;
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.Btn:hover {
+  background: linear-gradient(45deg, #d4af37, #e6c200, #f2d184);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  transition-duration: 1s;
+}
+
+/* Efeito de vidro no footer */
+.footer-image {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-image p a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-image p a:hover {
+  color: #ffd277;
+}
+
+/* Elementos extras para estilo */
+.IMG {
+  position: relative;
+  top: -790px;
+  left: 440px;
+}
+
+.IMAGEMCOROA2 {
+  position: relative;
+  top: -790px;
+  left: 520px;
+}
+
+.IMG2 {
+  position: relative;
+  left: -539px;
+}
+.header-right{
+  top: -104px;
+  position: relative;
+}
+p{
+  color: white;
+}
+.PessoaApotantoWhatzapp{
+  transform: scaleX(-1); /* Inverte a imagem horizontalmente */
+  
+}
