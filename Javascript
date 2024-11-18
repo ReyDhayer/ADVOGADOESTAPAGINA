@@ -1,0 +1,12 @@
+Javascript
+document.addEventListener('load', function () {
+    console.log("Página carregada!");
+  });
+  
+  // Função para carregar o carrinho de compras
+  function addToCart() {
+    console.log("Produto adicionado ao carrinho.");
+  }
+  
+  document.querySelector('.header-btn_cart').addEventListener('click', addToCart);
+  
